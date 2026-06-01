@@ -43,11 +43,6 @@ contract AlienCodex is Ownable {
     }
 }
 ```
-
-    Understanding how array storage works
-    Understanding ABI specifications
-    Using a very underhanded approach
-
 1. it inherits `Ownable`, after search online and intuition from pass challenge, the contract should stores `owner` address in a storage slot.
 
 - verify. This confirms presence of a 20 bytes address value stored within this contract.
