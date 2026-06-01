@@ -1,0 +1,9 @@
+
+# manual 
+# keccak256(1)
+cast keccak256 "0000000000000000000000000000000000000000000000000000000000000001"
+# 2^256
+cast max-uint 
+# compute, get the decimal value
+cast --to-base "$(cast max-uint) - $kec1" dec
+cast sel "2**256 - $kec1"

@@ -1,3 +1,8 @@
+>
+    *Notice*
+    - this is not a polished writing, These writeups does contain innacuracies in technical terms or refrencing.
+    - This is meant to be as a progressive note from a beginner/learner standpoint.
+
 This is a Foundry project, containing scripts to solve 40 Ethernaut Blockchain Pwn Challenges.
 - [Ethernaut Challenge](https://ethernaut.openzeppelin.com/) | [github](./)
 
